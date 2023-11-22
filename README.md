@@ -1,9 +1,5 @@
 # 유해물질 법인별 양산보증 측정 현황!
 
-import pyecharts.options as opts
-from pyecharts.charts import Line
-from pyecharts.faker import Faker
-
 c = (
     Line()
     .add_xaxis(Faker.choose())
